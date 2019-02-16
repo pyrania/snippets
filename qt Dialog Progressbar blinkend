@@ -1,0 +1,3 @@
+progress = QtWidgets.QProgressDialog(„Text mit Hinweis", None, 0, 0, window)
+progress.setWindowModality(QtCore.Qt.WindowModal)
+progress.show()

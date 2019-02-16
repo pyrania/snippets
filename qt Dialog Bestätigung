@@ -1,0 +1,7 @@
+confirmDialog = QtWidgets.QMessageBox(self)
+confirmDialog.finished.connect(self.methodeZurWeiterverarbeitung)
+confirmDialog.setWindowModality(QtCore.Qt.WindowModal)
+confirmDialog.setText(„Text mit Hinweisen")
+confirmDialog.setStandardButtons(QtWidgets.QMessageBox.Cancel | QtWidgets.QMessageBox.Ok)
+confirmDialog.setDefaultButton(QtWidgets.QMessageBox.Ok)
+confirmDialog.open()
