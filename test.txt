@@ -1,0 +1,12 @@
+Terminal
+cd Pfad_zum_Ordner_mit_Script
+pyinstaller --onefile --windowed —icon datei.icns Pfad_zum_Script 
+erzeugt u.a. dist/ mit .app
+.app/contens/
+Info.plist
+<key>NSPrincipalClass</key>
+<string>NSApplication</string>
+<key>NSHighResolutionCapable</key>
+<string>True</string>
+aktiviert high-DPI support
+(mehr: https://pyinstaller.readthedocs.io/en/stable/index.html)
