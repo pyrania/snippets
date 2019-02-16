@@ -1,0 +1,1 @@
+self.mein_Line_Edit.addAction(QtGui.QIcon(„mein_Pfad/mit_Dateiname"), QtWidgets.QLineEdit.LeadingPosition)

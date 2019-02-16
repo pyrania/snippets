@@ -1,0 +1,11 @@
+class MyDelegate(QtWidgets.QStyledItemDelegate): #besser StyItDel als ItDel, weil so
+    def createEditor(self, parent, option, index):
+        if index.column() != 0: # Index der zu sperrenden Spalte
+            return super(MyDelegate, self).createEditor(parent, option, index)
+        return None
+
+class MainGUI ...
+    delegate = MyDelegate()
+    self.Mein_Tree_Widget.setItemDelegate(delegate)
+
+!!! besser von QStyledItemDelegate erben (als von QItemDelegate) , weil sonst CSS nicht durchgereicht wird !!!

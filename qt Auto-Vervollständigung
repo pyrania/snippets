@@ -1,0 +1,4 @@
+my_completer = QCompleter(mein_Liste_mit_Vorschlagwerten)
+# my_completer.setCaseSensitivity(QtCore.Qt.CaseInsensitive)
+# ode rmy_completer.setCaseSensitivity(0)
+self.mein_Line_Edit.setCompleter(my_completer)

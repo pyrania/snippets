@@ -1,0 +1,1 @@
+self.mein_ausszuschließendes_Widget.setAttribute(QtCore.Qt.WA_MacShowFocusRect, False)
