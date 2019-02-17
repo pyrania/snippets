@@ -1,0 +1,6 @@
+informDialog = QtWidgets.QMessageBox(self)
+informDialog.setWindowModality(QtCore.Qt.WindowModal)
+informDialog.setText(„Text mit Hinweis")
+informDialog.setStandardButtons(QtWidgets.QMessageBox.Ok)
+informDialog.setDefaultButton(QtWidgets.QMessageBox.Ok)
+informDialog.open()

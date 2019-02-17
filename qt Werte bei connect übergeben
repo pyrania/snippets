@@ -1,0 +1,2 @@
+variable = partial(self.onHandler, wert)
+self.ui.button(cbk)

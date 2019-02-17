@@ -1,0 +1,11 @@
+zielVariable, okPressed = QtWidgets.QInputDialog.getItem(parentWindow, „Titel", „Text:", combBox, 0, False)
+if okPressed and schuljahr:
+
+getInt()
+Creates a spinner box for integer number
+getDouble()
+Spinner box with floating point number can be input
+getText()
+A simple line edit field to type text
+getItem()
+A combo box from which user can choose item

@@ -1,0 +1,11 @@
+def laden(self,datei):
+    with open(self.pfad + datei, "rb") as file:
+        mein_Arbeits_Daten = pickle.load(file)
+def sichern():
+    copyfile(pfad + „Meine_Datei.dat", pfad + „Meine_Datei.bak")
+    with open(pfad + "Meine_Datei.dat", "wb") as datei:
+        pickle.dump(mein_Arbeits_Daten,datei)
+def onUnDo():
+    laden("findusB.bak")
+    sichern()
+    # weiter zur Datendarstellung
